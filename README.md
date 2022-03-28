@@ -24,7 +24,7 @@ kpathsea version 6.3.3
 #### 2. Clone the repo 
 
 ```
-git clone git@github.com:wuwenrufeng/godoc.git
+git clone git@github.com:wuwenrufeng/goodoc.git
 ```
 
 #### 3. Compile the source and run examples
