@@ -11,7 +11,7 @@ goodoc ≈ good go doc
 
 #### 0. Install pandoc and pdfTex
 
-#### 1. Install [pandoc] (https://pandoc.org/installing.html), and [LaTeX](https://tug.org/mactex/) should be installed  too.
+#### 1. Install [pandoc](https://pandoc.org/installing.html), and [LaTeX](https://tug.org/mactex/) should be installed  too.
 
 ```
 ➜  ~  pandoc --version
