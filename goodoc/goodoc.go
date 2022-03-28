@@ -14,12 +14,21 @@ const (
 	PDF      = "pdf"
 )
 
-func LookPandoc() {
+func init() {
+	lookPath()
+}
+
+func lookPath() {
 	path, err := exec.LookPath("pandoc")
 	if err != nil {
 		panic("pandoc not found")
 	}
-	log.Println(path)
+	log.Printf("pandoc path is %s", path)
+	path, err = exec.LookPath("latex")
+	if err != nil {
+		panic("latex not found")
+	}
+	log.Printf("latex path is %s", path)
 }
 
 func ToMarkdown(src string) (markdown string, err error) {
