@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"godoc/godoc"
+	"goodoc/goodoc"
 )
 
 func html2pdf() {
 	html := "<p>Hello <em>pandoc</em>!</p>"
-	godoc.ToPDF(html, "./hello.pdf")
+	goodoc.ToPDF(html, "./hello.pdf")
 	fmt.Println("------ HTML convert to pdf------")
 	fmt.Println("HTML:")
 	fmt.Println(html)

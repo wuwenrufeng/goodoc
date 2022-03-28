@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"godoc/godoc"
+	"goodoc/goodoc"
 )
 
 func html2md() {
 	html := "<p>Hello <em>pandoc</em>!</p>"
-	md, _ := godoc.ToMarkdown(html)
+	md, _ := goodoc.ToMarkdown(html)
 	fmt.Println("------ HTML convert to markdown------")
 	fmt.Println("HTML:")
 	fmt.Println(html)

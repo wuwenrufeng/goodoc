@@ -1,12 +1,12 @@
-# godoc
-godoc
+# goodoc
 =======
 
 用go实现网页源码转换为pdf及office文档。html2pdf，html2word, html2excel...
+goodoc ≈ good go doc
 
 
 
-## How to setup godoc
+## How to setup goodoc
 
 #### 0. Install pandoc and pdfTex
 

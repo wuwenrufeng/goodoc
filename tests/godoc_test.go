@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"godoc/godoc"
+	"goodoc/goodoc"
 	"testing"
 )
 
@@ -14,7 +14,7 @@ func TestLookPandoc(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			godoc.LookPandoc()
+			goodoc.LookPandoc()
 		})
 	}
 }
@@ -29,7 +29,7 @@ func TestToMarkdown(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			markdown, err := godoc.ToMarkdown(tt.src)
+			markdown, err := goodoc.ToMarkdown(tt.src)
 			if err != nil {
 				t.Errorf("to markdown error: %v", err)
 			}
@@ -57,7 +57,7 @@ func TestToHTML(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			html, err := godoc.ToHTML(tt.src)
+			html, err := goodoc.ToHTML(tt.src)
 			if err != nil {
 				t.Errorf("to html error: %v", err)
 			}
@@ -77,7 +77,7 @@ func TestToPDF(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			out, err := godoc.ToPDF(tt.src, tt.path)
+			out, err := goodoc.ToPDF(tt.src, tt.path)
 			if err != nil {
 				t.Errorf("to pdf error: %v, out: %v", err, out)
 			}
