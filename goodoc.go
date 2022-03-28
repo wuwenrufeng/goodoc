@@ -12,6 +12,7 @@ const (
 	HTML     = "html"
 	MARKDOWN = "markdown"
 	PDF      = "pdf"
+	DOCX     = "docx"
 )
 
 func init() {
@@ -54,6 +55,16 @@ func ToHTML(src string) (html string, err error) {
 func ToPDF(src string, path string) (out string, err error) {
 	out, err = bash(fmt.Sprintf("pandoc -f %s -t %s -o %s", HTML,
 		PDF, path), src)
+	if err != nil {
+		return
+	}
+
+	return
+}
+
+func ToDocx(src string, path string) (out string, err error) {
+	out, err = bash(fmt.Sprintf("pandoc -f %s -t %s -o %s", HTML,
+		DOCX, path), src)
 	if err != nil {
 		return
 	}

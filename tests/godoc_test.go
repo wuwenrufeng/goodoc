@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"goodoc/goodoc"
+	"goodoc"
 	"testing"
 )
 
