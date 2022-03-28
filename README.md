@@ -31,7 +31,7 @@ git clone git@github.com:wuwenrufeng/godoc.git
 
 ```
 cd examples
-go run main.go
+go run *.go
 ```
 
 
