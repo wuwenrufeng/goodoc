@@ -51,22 +51,3 @@ func TestToHTML(t *testing.T) {
 		})
 	}
 }
-
-func TestToPDF(t *testing.T) {
-	tests := []struct {
-		name string
-		src  string
-		path string
-	}{
-		// TODO: Add test cases.
-		{"", "<p>Hello <em>pandoc</em>!</p>", "./test1.pdf"},
-	}
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			out, err := goodoc.ToPDF(tt.src, tt.path)
-			if err != nil {
-				t.Errorf("to pdf error: %v, out: %v", err, out)
-			}
-		})
-	}
-}

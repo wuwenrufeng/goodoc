@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <title>goodoc</title>
+</head>
+
+<body>
+    <h3>goodoc示例</h3>
+    <form method="post" action="http://127.0.0.1:8080/upload" enctype="multipart/form-data">
+        <p></p><input type="file" name="upload"></input>
+        <p></p>
+        <div>
+            <label>目标格式： </label>
+            <select name="format">
+                <optgroup label="文档格式">
+                    <option value="pdf">PDF</option>
+                    <option value="markdown">Markdown</option>
+                    <option value="docx">DOCX</option>
+                    <option value="xls">XLS</option>
+                </optgroup>
+            </select>
+        </div>
+        <p></p><input type="submit" value="开始转换"></button>
+    </form>
+</body>
+
+</html>

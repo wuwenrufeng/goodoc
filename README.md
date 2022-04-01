@@ -34,7 +34,12 @@ cd examples
 
 go run *.go
 ```
+#### 4. run http server
+```
+cd server
 
+go run main.go
+```
 
 ## TODO
 
