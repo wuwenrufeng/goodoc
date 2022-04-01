@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="generator" content="pandoc" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-    <title>README</title>
+    <title>goodoc</title>
     <style>
         html {
             line-height: 1.5;
@@ -224,50 +224,14 @@
             margin: 0.5rem auto;
         }
     </style>
-    <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 
 <body>
-    <h1 id="goodoc"># goodoc</h1>
-    <div>
-        <img data-test-selector=commits-avatar-stack-avatar-image
-            src="data:image/jpeg;base64,/9j/2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIADAAMAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AOutrrR9BsxbXF/BHKxPmSTMEODk8Z7eg6Vbstd8Nx5S21nTyvXZ9pQkH15Oa868beGI7yI6pHfS/wBoxWyNOjp8jqAoGDn5T8wz+fHWvOZ/D+owxwXFzbyR21x9yZvuHnGM9M+3WiwWNTx54x1fV/E13bRX84sYZW8iOFvlwOjfKcHpnPvXonhP4p6PB4OtTreoyPqUKlJE8sl3wTg56HjHJP1rjtL8HRSWgeV22HqyNx9BUSeDItPuXeW2jukYHAkLrj3G0j9ciiwWPTvDfxS0XxLqp06CG4gnYEwiUKPNwM4HPBrevdat4Bpfk7JE1GXy4xjLcqTux3Axz9a8f0P4XxeIIJ3tdTe2mgk5WSPJXOccjGenXvjoK7nS/B0Xg8x6peX8l3JAm03NwS4t0xg7R2z06dM807BYsax400HSbVE1Rgbr7MA1usYZsN95SMkDIAzk9O9eNX3iia50W40uKJ5NLN0Zl835pIey4PQD2/xpnjq1ktPFd7CysqqQEJP3l9fpnNaXgCO0toNS1K/kjjgWIxosi7lkY/wkenv6ihuxcYuWxW8P3C2ulXlxcSXRt4U2IY1LKrMRyeQMgZOD1x+XXaFcaBILSSXxHLf3GMLZg+Szf7zMAEI/3sHHFc/q1gNI0dYW8iW3uVWQhDu8kkZ27uMZ9OR+VcNc4WfdACgboAelA7H09pyXENqV02xMKSMW/czREZPdnJYt9cfhWh9kaeJY9UuoXjB3GIlTuI/vNgZHsFHvkV8sWlxd72QXhQnrudhmu98EeMLHwl8t9pcsqSvmW5WXzNpz1CngD8M+/amOxuePNETXdNku7WPE1lEACcq5PLMCD77iOnXvnjyG2l+yyGKdTgjkZ6fSvfbDWLG+1GWFIdkBlJMrMVBUjo2ec8kdR+deWfE3wxB4b1mBbaUNBcRmSOM/ejGT8pPceh//AFkSJRz63SqBvv5cjAEaLwR7kn+lQS3cTq8UUQj3HLM2CTj8KoxqpcBgakki2zKhzhhkEdxT5SiecxuwaI/dHNTWt2+CG546HvUMUSRsTySeOakks93zxsR7UWA//9k="
-            width=24 height=24 alt=@wuwenrufeng class=avatar-user>
-    </div>
-    <p>用go实现网页源码转换为pdf及office文档。html2pdf，html2word,
-        html2excel…</p>
-    <p>goodoc ≈ good go doc</p>
-    <h2 id="how-to-setup-goodoc">How to setup goodoc</h2>
-    <h4 id="install-pandoc-and-pdftex">0. Install pandoc and pdfTex</h4>
-    <h4 id="install-pandoc-and-latex-should-be-installed-too.">1. Install <a
-            href="https://pandoc.org/installing.html">pandoc</a>, and <a href="https://tug.org/mactex/">LaTeX</a> should
-        be installed too.</h4>
-    <pre><code>➜  ~  pandoc --version
-pandoc 2.17.1.1
-➜  ~  latex --version
-pdfTeX 3.141592653-2.6-1.40.22 (TeX Live 2021)
-kpathsea version 6.3.3</code></pre>
-    <h4 id="clone-the-repo">2. Clone the repo</h4>
-    <pre><code>git clone git@github.com:wuwenrufeng/goodoc.git</code></pre>
-    <h4 id="compile-the-source-and-run-examples">3. Compile the source and
-        run examples</h4>
-    <pre><code>cd examples
-
-go run *.go</code></pre>
-    <h2 id="todo">TODO</h2>
-    <ul>
-        <li>
-            <p>logs</p>
-        </li>
-        <li>
-            <p>more tests</p>
-        </li>
-        <li>
-            <p>more examples</p>
-        </li>
-    </ul>
+    <header id="title-block-header">
+        <h1 id="goodoc"># goodoc</h1>
+    </header>
+    <p>html2pdf,html2word,html2excel…</p>
+    <p>goodoc = good go doc</p>
 </body>
 
 </html>

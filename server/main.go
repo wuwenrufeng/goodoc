@@ -39,7 +39,7 @@ func transfer(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "tarnsfer %s failed", format)
 		return
 	}
-	w.Header().Set("Content-Disposition", fmt.Sprintf("attachment; filename=%s", url.QueryEscape(fmt.Sprintf("test.%s", format))))
+	w.Header().Set("Content-Disposition", fmt.Sprintf("attachment; filename=%s", url.QueryEscape(fmt.Sprintf("goodoc.%s", format))))
 	w.Write([]byte(out))
 }
 
