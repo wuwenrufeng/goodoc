@@ -6,7 +6,7 @@
 goodoc ≈ good go doc
 
 
-![](https://github.com/wuwenrufeng/goodoc/blob/main/doc/goodoc.gif)
+![](https://gitee.com/wuwenrufeng/assets/raw/master/goodoc/goodoc.gif)
 
 ## How to setup goodoc
 
