@@ -7,6 +7,7 @@ goodoc ≈ good go doc
 
 
 ![](https://github.com/wuwenrufeng/goodoc/blob/main/doc/goodoc.gif)
+[演示国内](https://gitee.com/wuwenrufeng/assets/raw/master/goodoc/goodoc.gif)
 
 ## How to setup goodoc
 
